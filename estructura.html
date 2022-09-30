@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+
+    <link rel="stylesheet" href="frontEncriptador.css">
+</head>
+<body>
+    <header>
+        <section>
+            <img src="Imagenes/Logo.png" alt="Logo letra a">
+            <h1>Encriptador</h1>
+        </section>
+    </header>
+    <main>
+        <section class="entradaTexto">
+            <p>Este es un ecriptador donde puede ocultar sus mensajes gracias a la encriptación!</p>
+            <textarea class="inputTexto" cols="50" rows="30" placeholder="Ingrese el texto aqui, sin tildes."></textarea>
+            <!--<input type="text" id="txtEntradaTexto" placeholder="Ingrese su texto aqui" class="cajaTexto">-->
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <!-- <input type="button" value="Encriptar" class="encriptar"> -->
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+            
+        </section>
+        <section class="salidaTexto"> <!--Resultado de encriptar-->
+            <!--textarea es util para mas texto-->
+            <textarea class="mensaje" cols="50" rows="30" placeholder="Mensaje encriptado"></textarea>
+            <div class="botones">
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>   
+    <script src="script.js"></script>
+    <footer> <!--pie de pagina-->
+        <section>
+            <img src="Imagenes/gato.gif" alt="gato muestra" class="imgGato">
+        </section>
+        <section>
+            <p class="copyright">&copy Made by Daniela Lozano</p>
+        </section>
+        
+    </footer>
+</body>
+</html>
