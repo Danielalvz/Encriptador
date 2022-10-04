@@ -24,3 +24,4 @@ Contiene:
 * La página tiene campos de inserción del texto que será encriptado o desencriptado, y el usuario puede escoger entre las dos opciones.
 * El resultado es mostrado en la pantalla.
 * Un botón que copia el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
+
